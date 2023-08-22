@@ -1,0 +1,243 @@
+.bg_img {
+   background-image: url("img/baggrunds\ billede\ til\ eksport.png");
+   background-color: rgb(0, 0, 0);
+   
+}
+
+.container {
+   width: 1080px;
+}
+
+
+* {
+   box-sizing: border-box;
+}
+body {
+   background-color: black;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;}
+   
+.mySlides {
+   display: none;}
+img {
+   vertical-align: middle;}
+
+   @import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+
+
+   #navbar ul {
+      list-style: none;
+      
+    
+    }
+    img, picture, svg, video {
+      display: block;
+      max-width: 100%;
+  }
+    
+    #nav_desktop ul li {
+      display: inline;
+    }
+    
+    #nav_desktop ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 35px;
+      font-family: 'Fascinate', cursive;
+    }
+
+    .logo_size {
+      height: 50px;
+    }
+
+  /* Slideshow container */
+.slideshow-container {
+   max-width: 1080px;
+   position: relative;
+   margin: auto;
+ }
+ 
+ /* Hide the images by default */
+ .Slider {
+   display: none;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ /* Fading animation */
+ .fade_slider {
+   animation-name: fade;
+   animation-duration: 1.5s;
+ }
+ 
+ @keyframes fade {
+   from {opacity: .4}
+   to {opacity: 1}
+ }
+
+ .bg_black {
+   background-color: rgba(0, 0, 0, 0.306);
+ }
+
+ .h-divider{
+   margin-top:5px;
+   margin-bottom:5px;
+   height:1px;
+   border-top:1px solid yellow;
+   
+}
+ 
+
+.text_size {
+   font-size: 19px;
+   font-weight: bold;
+}
+
+.p_text {
+   font-size: 19px;
+}
+
+.h2_text {
+   font-size: 30px;
+   color: white;
+}
+
+.fig_text {
+   color: white;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.event_text {
+   font-size: 18px;
+   color: white;
+}
+
+
+.read_more {
+   text-decoration: none;
+   color: white;
+   font-size: 18px;
+}
+
+.read_more:hover {
+   background-color: rgba(0, 0, 255, 0.253);
+   border-radius: 6px;
+}
+
+
+
+
+ 
+ .text_white {
+   color: white;
+   font-size: 20px;
+ }
+
+ .bg_dark_green {
+   background-color: #84811e;
+   border-radius: 8px;
+   max-height: 300px;
+ }
+
+ .mail_text {
+   font-size: 55px;
+   font-family: 'Fascinate', cursive;
+ }
+
+ .bg_dark_green_2 {
+   background-color: #4c4a12;
+   border-radius: 8px;
+   
+ }
+
+ .bg_white {
+   background-color: white;
+   border-radius: 8px;
+   border: 0;
+ }
+
+.show {
+   font-family: 'Fascinate', cursive;
+   font-size: 30px;
+   font-weight: bold;
+   color: white;
+      -webkit-transform: rotate(21deg);
+      -moz-transform: rotate(21deg);
+      -o-transform: rotate(21deg);
+writing-mode: lr-tb;
+width: 300px;
+}
+
+.show_2 {
+   font-family: 'Fascinate', cursive;
+   font-size: 20px;
+   font-weight: bold;
+   color: white;
+-webkit-transform: rotate(-21deg);
+-moz-transform: rotate(-21deg);
+-o-transform: rotate(-21deg);
+writing-mode: lr-tb;
+width: 1px;
+
+}
+.show_3 {
+   font-family: 'Fascinate', cursive;
+   font-size: 50px;
+   font-weight: bold;
+   color: white;
+-webkit-transform: rotate(-25deg);
+-moz-transform: rotate(-25deg);
+-o-transform: rotate(-25deg);
+writing-mode: lr-tb;
+width: 1px;
+white-space: nowrap;
+}
+
+.show_4 {
+   font-family: 'Fascinate', cursive;
+   font-size: 20px;
+   font-weight: bold;
+   color: white;
+   width: 1px;
+white-space: nowrap;
+-webkit-transform: rotate(-21deg);
+-moz-transform: rotate(-21deg);
+-o-transform: rotate(-21deg);
+writing-mode: lr-tb;
+}
+
+.show_5 {
+   font-family: 'Fascinate', cursive;
+   font-size: 50px;
+   font-weight: bold;
+   color: white;
+   width: 1px;
+   white-space: nowrap;
+}
+
+.show_6 {
+   font-family: 'Fascinate', cursive;
+   font-size: 30px;
+   font-weight: bold;
+   color: white;
+   width: 1px;
+   white-space: nowrap;
+}
+
+
+.show_7 {
+   font-family: 'Fascinate', cursive;
+   font-size: 20px;
+   font-weight: bold;
+   color: white;
+   width: 100px;
+white-space: nowrap;
+-webkit-transform: rotate(-21deg);
+-moz-transform: rotate(-21deg);
+-o-transform: rotate(-21deg);
+writing-mode: lr-tb;
+}
+
